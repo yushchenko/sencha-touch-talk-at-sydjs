@@ -36,7 +36,6 @@ from good old desktop environmet.
   We are lucky here, it's mainly WebKit browsers.
   Well, there is Windows Phone on the horizon
   with astonishing less than 1% market share in Australia.
-* app should work in different environments: browser + native wrapper
 
 ## Mobile Libraries & Frameworks
 
@@ -59,59 +58,52 @@ Obviously nothing comes without price so library's size increases in the same or
 
 Class System and MVC
 
-  * inheritance + mixins
-  * statics and singelton
+  * inheritance, mixins, statics, singleton
   * automatic dependency management
-
   * standart application architecture
   * declarative selector based event binding
-  * declarative support for deep linking (routing)
-  * profiles to support different layout for phones and tablets
+  * deep linking support (routing)
 
 > slide
 
-Rich set of standard components
+Rich Set of Components
 
-  * list and forms - look and feel close to native
-  * toolbars, buttons andicons
+  * lists and forms - look and feel close to native
+  * toolbars, buttons and icons
   * tabs, carousel and overlays
   * awesome charts (separate component)
 
 > slide
 
-Utils
-  DOM manipulations, Selectors, Templates etc
+More Goodness
 
-* theming framework
-* tool chain - scaffolds, build, deployment
+* Core utils: DOM manipulations, selectors, platform detection, templates etc
+* theming framework based on SASS and Compass
+* commandline tools: scaffolds, build & packaging
 
 ## Why Sencha Touch Sucks?
 
+> slide
+
 * supports only iOS, Android and Blackberry at the moment
-* complex - learning curve is high especially for jQuery developers
-* heavy
-* GPL/Commertial - not MIT
+* complex: learning curve can be high
+* heavy: for example 420/142Kb - JS, 133/65Kb - CSS
 * not on GitHub
 
 ## How to Study
 
-* tutorial + videos
-* samples - KitchenSink
-* API documentation
-* Source code - not on GitHub
-* Forum/twitter - minor version updates
+> slide
 
-## Hello Sencha
-
-* scaffolds with sencha command
-* Ext.Component + Ext.Container
-* routing
-* event handling
+* Guides, videos and samples
+* Samples: KitchenSink
+* API docs & source code
+* Blog, forum & Twitter
+  minor version updates
 
 ## Add More Coffeine
 
-Using CoffeeScript with ST.
-
-## Wrap Up
+> slide: CoffeeScript logo
 
 ## Thanks
+
+> slide

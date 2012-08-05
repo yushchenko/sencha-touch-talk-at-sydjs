@@ -75,11 +75,11 @@ Rich Set of Components
 
 > slide
 
-More Goodness
+And More Goodness
 
-* Core utils: DOM manipulations, selectors, platform detection, templates etc
-* theming framework based on SASS and Compass
-* commandline tools: scaffolds, build & packaging
+* Core utils: DOM, selectors, platform detection, templates etc
+* themes based on SASS and Compass
+* command line tools: scaffolds, build & packaging
 
 ## Why Sencha Touch Sucks?
 

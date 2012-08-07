@@ -1,31 +1,42 @@
-# Notes
-
-Sencha Touch + Your Next Project === Love?
+# Sencha Touch + Your Next Project === Love?
 
 ## Introduction
 
 > slide
 
-Hi, my name is Valery. 
-I am JavaScript developer like many of you.
-A half a year ago I decided to find out how mobile web development looks like
-and now I would like to share some of this findings with you.
+Hey, my name is Valery. 
+I am a JavaScript developer like many of you here.
+At the end of the last year
+I had a chance to try how mobile web development looks like
+and now I would love to share some of these findings with you.
+During next 10 minutes I will give you a short overview of
+Sencha Touch JavaScript framework.
 
 In Fairfax, the company where I work,
-some not particularly technical people call me a 'Sencha developer'.
-It sounds ridiculous, in the same way one can address a carpenter as a 'hammer operator'.
-What I am trying to convey is that a framework or library
-is just a tool to make your job done.
+*some not particularly technical people* call me a 'Sencha developer'.
+It sounds ridiculous, in the same way one can address a carpenter
+as a 'hammer operator'.
 
-Starting a new project you hopefully have a choice which tools to pick up.
-Lets try to find out weather you need Sencha Touch and where it rocks and where it sucks.
+What I am trying to convey here is that a framework or library
+is just a **tool** to make your job done.
+Hopefully, starting a shiny new project you have a **choice**
+which particular tool to pick up.
+
+In the real word, nothing is ideal, so even the best tools have its pros and cons.
+What is a great for one task or project can be terrible for another.
+I am telling these trivial things to you just for one simple reason.
+Considering new, shiny and professionally marketed technology
+we need to have rigth attitude to have real **choice**
+but not just follow the herd.
+
+OK, let move on.
 
 ## Mobile vs Desktop
 
 > slide
 
 First of all lets take a look how mobile world is different
-from good old desktop environmet.
+from good old desktop which is familiar to everyone.
 
 * touch, gestures and small screen -> different UX patterns
 * performance

@@ -2,8 +2,6 @@
 
 ## Introduction
 
-> slide
-
 Hey, my name is Valery. 
 I am a JavaScript developer like many of you here.
 At the end of the last year
@@ -18,35 +16,75 @@ It sounds ridiculous, in the same way one can address a carpenter
 as a 'hammer operator'.
 
 What I am trying to convey here is that a framework or library
-is just a **tool** to make your job done.
+is just a **tool** to make job done.
 Hopefully, starting a shiny new project you have a **choice**
 which particular tool to pick up.
 
 In the real word, nothing is ideal, so even the best tools have its pros and cons.
 What is a great for one task or project can be terrible for another.
-I am telling these trivial things to you just for one simple reason.
+I am telling these trivial things just for one simple reason.
 Considering new, shiny and professionally marketed technology
-we need to have rigth attitude to have real **choice**
+we need to have proper attitude to have **real choice**
 but not just follow the herd.
 
 OK, let move on.
 
 ## Mobile vs Desktop
 
-> slide
-
 First of all lets take a look how mobile world is different
-from good old desktop which is familiar to everyone.
+from good, old and familiar desktop.
 
-* touch, gestures and small screen -> different UX patterns
-* performance
-  * execution is slow
-  * memory is scarce
-  * 3G network is sluggish
-* WebKit dominated browser landscape
-  We are lucky here, it's mainly WebKit browsers.
-  Well, there is Windows Phone on the horizon
-  with astonishing less than 1% market share in Australia.
+> fragment: screen ...
+
+The most obvious difference is screen size.
+
+Screen real estate is precious.
+Having 320px width you can forget about many familiar UX patterns
+like grids and trees with inline editing.
+Obviously we need controls designed **specifically** for mobile.
+
+> fragment: fingers ...
+
+Next, for many people it was a lovely surprise that there is no mouse!
+Tap instead of click, swipe instead of scroll and no hover event at all!
+**How to live in such terrible world ?!!**
+
+In addition to this we need to handle
+such fancy interactions like **pinch** and **rotate**.
+Think, the library of our choice should give us a hand here.
+
+> fragment: performance ...
+
+And the next challenge is performance.
+Mobile hardware and browsers are optimized for energy saving first.
+Unfortately but inevitebly it takes heavy toll on performance.
+Yes, phones are getting faster over the time but it still far far away from desktop.
+It's not scientificaly precise but it's fairly safe to assume code
+on a device will be in 100 times slower than in Google Chrome on your MacBook Pro.
+
+Memory is not in abandance either.
+It's fairly easy to slow down even iPhone 4S.
+Just let youself to be a little bit relaxed about application's DOM size.
+
+And to make the picture perfect, there is 3G network.
+It's not only slow but it can have very long round trip.
+One HTTP request can easy take up to 700 miliseconds
+and it doesn't matter how fast your server side API is.
+
+> fragment: WebKit...
+
+One more difference here.
+It is rather exciting than terrifying.
+If you open StatCounter's stats for mobile browsers here in Australia,
+you can see that the landscape is dominated by WebKit.
+The share of SymbianOS is less than 1% and it's declining.
+Well, there is Windows Phone on the horizon.
+It is something around 0.8% of all smartphone users now.
+Will see how it will be going...
+
+WebKit domination is exciting because it literally means
+that you can not only read about HTML5 and CSS3 but also use them.
+I personally realy enjoy using CSS3 flex box model.
 
 ## Mobile Libraries & Frameworks
 

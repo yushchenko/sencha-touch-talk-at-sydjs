@@ -11,9 +11,6 @@
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-		
-		<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
-		
 		<link rel="stylesheet" href="libs/reveal/css/reset.css">
 		<link rel="stylesheet" href="libs/reveal/css/main.css">
 		<link rel="stylesheet" href="libs/reveal/css/print.css" type="text/css" media="print">
@@ -23,11 +20,17 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
         <style>
           body { font-family: 'arial'}
           h2.sencha { color: #74b020; line-height: 120%; }
-          .love {color: #FF5E99; }
+          .reveal .controls a.enabled { color: #74b020; }
+          .reveal .progress span { background: #74b020; }
+          .love, .twitter, .blink {color: #FF5E99; }
+          .br { margin-top: 30px; }
+          .blink { }
           li {margin-top: 12px; }
+          
 
           .reveal section img { border:none; background:none;}
         </style>
@@ -44,61 +47,56 @@
 				
 				<section>
                   <h2 class="sencha">Mobile vs Desktop</h2>
-                  <ul>
-                    <li class="fragment">Screen real estate is precious.</li>
-                    <li class="fragment">Finger(s) instead of mouse.</li>
-                    <li class="fragment">Performance is real challenge.</li>
-                    <li class="fragment">WebKit dominated browser landscape.</li>
-                  </ul>
+                  <p class="fragment br">space is precious</p>
+                  <p class="fragment">finger(s) instead of mouse</p>
+                  <p class="fragment">performance is real challenge</p>
+                  <p class="fragment">WebKit dominated browser landscape</p>
 				</section>
 
                 <section>
                   <h2 class="sencha">Mobile Libraries & Frameworks</h2>
-                  <ul>
-                    <li class="fragment">Sencha Touch</li>
-                    <li class="fragment">jQuery + jQuery Mobile + ...</li>
-                    <li class="fragment">Zepto.js + ...</li>
-                    <li class="fragment">iScroll + ...</li>
-                    <li class="fragment">...</li>
-                  </table>
+                  <p class="fragment">Sencha Touch</p>
+                  <p class="fragment">jQuery + jQuery Mobile + ...</p>
+                  <p class="fragment">Zepto.js + ...</p>
+                  <!-- <p class="fragment">iScroll + ...</p> -->
+                  <p class="fragment">...</p>
                 </section>
 				
                 <section>
-                  <h2 class="sencha">Why Sencha Touch Rocks?</h2>
-                  <h3>Class System & MVC</h3>
-                  <ul>
-                    <li class="fragment">standart application architecture</li>
-                    <li class="fragment">inheritance, mixins, statics, singletons</li>
-                    <li class="fragment">automatic dependency management</li>
-                    <li class="fragment">deep linking support (routing)</li>
-                    <li class="fragment">and many more...</li>                    
-                  </ul>
+                  <h2 class="sencha">Why Sencha Touch Rocks ?</h2>
+                  <h3 class="fragment">Application Architecture</h3>
+                  <br />
+                  <p class="fragment">MVC</p>
+                  <p class="fragment">rich class system</p>
+                  <p class="fragment">dependency management</p>
+                  <p class="fragment">deep linking support</p>
+                  <p class="fragment">...</p>                    
                 </section>
 
                 <section>
                   <section>
-                    <h2 class="sencha">Why Sencha Touch Rocks?</h2>
+                    <h2 class="sencha">Why Sencha Touch Rocks ?</h2>
                     <h3>Lists & Forms</h3>
                     <img src="images/list-grouped.png" width=200px />
                     <img src="images/list-disclosure.png" width=200px />
                     <img src="images/forms.png" width=200px />
                   </section>
                   <section>
-                    <h2 class="sencha">Why Sencha Touch Rocks?</h2>
+                    <h2 class="sencha">Why Sencha Touch Rocks ?</h2>
                     <h3>Toolbars, Buttons & Icons</h3>
                     <img src="images/toolbars.png" width=200px />
                     <img src="images/buttons.png" width=200px />
                     <img src="images/icons.png" width=200px />
                   </section>
                   <section>
-                    <h2 class="sencha">Why Sencha Touch Rocks?</h2>
+                    <h2 class="sencha">Why Sencha Touch Rocks ?</h2>
                     <h3>Tabs, Carousel & Overlays</h3>
                     <img src="images/tabs.png" width=200px />
                     <img src="images/carousel.png" width=200px />
                     <img src="images/overlays.png" width=200px />
                   </section>
                   <section>
-                    <h2 class="sencha">Why Sencha Touch Rocks?</h2>
+                    <h2 class="sencha">Why Sencha Touch Rocks ?</h2>
                     <h3>Awesome Charts</h3>
                     <img src="images/chart-bar.png" width=200px />
                     <img src="images/chart-pie.png" width=200px />
@@ -107,45 +105,42 @@
                 </section>
 
                 <section>
-                  <h2 class="sencha">Why Sencha Touch Rocks?</h2>
+                  <h2 class="sencha">Why Sencha Touch Rocks ?</h2>
                   <h3>And More Goodness</h3>
-                  <ul>
-                    <li class="fragment">selectors</li>
-                    <li class="fragment">clientside templates</li>
-                    <li class="fragment">themes based on SASS & Compass</li>
-                    <li class="fragment">command line: scaffolding,
-                      build & packaging</li>
-                    <li class="fragment">...</li>
-                  </ul>
+                  <p class="fragment br">selectors</p>
+                  <p class="fragment">clientside templates</p>
+                  <p class="fragment">themes based on SASS & Compass</p>
+                  <p class="fragment">command line: scaffolding,
+                    build & packaging</p>
                 </section>
 
                 <section>
-                  <h2 class="sencha">Why Sencha Touch Sucks?</h2>
-                  <ul>
-                    <li class="fragment">iOS, Android & Blackberry ONLY</li>
-                    <li class="fragment">heavy: e.g. 420Kb - JS, 133Kb - CSS</li>
-                    <li class="fragment">learning curve can be high</li>
-                    <li class="fragment">not on GitHub</li>
-                  </ul>
+                  <h2 class="sencha">Why Sencha Touch Sucks ?</h2>
+                  <p class="fragment br">
+                    <span class="blink">&lt;blink&gt;</span>
+                    iOS, Android & Blackberry ONLY
+                    <span class="blink">&lt;/blink&gt;</span>
+                  <p class="fragment">
+                    <span class="blink">&lt;b&gt;</span>
+                    420Kb JS + 133Kb CSS
+                    <span class="blink">&lt;/b&gt;</span>
+                  </p>
+                  <p class="fragment">relatively hard to study</p>
+                  <p class="fragment">not on GitHub</p>
                 </section>
 
                 <section>
                   <h2 class="sencha">How to Study?</h2>
-                  <ul>
-                    <li class="fragment">Guides, videos and samples</li>
-                    <li class="fragment">Samples</li>
-                    <li class="fragment">API docs & source code</li>
-                    <li class="fragment">Blog, Forum & Twitter</li>
-                  </ul>
+                  <p class="fragment br">tutorials + video</p>
+                  <p class="fragment">KitchenSink</p>
+                  <p class="fragment">API docs</p>
+                  <p class="fragment">source</p>
+                  <p class="fragment">@</p>
                 </section>
 
-                <!-- <section> -->
-                <!--   <h2 class="sencha">Add More Coffeine</h2> -->
-                <!-- </section> -->
-
                 <section>
-                  <h2 class="sencha" style="margin-top: 20%;">Thanks :)</h2>
-                  <p style="color:#049cdb; margin-top:100px;">@vyushchenko</p>
+                  <h2 class="sencha">Thanks :)</h2>
+                  <p class="twitter" style="margin-top:100px;">@vyushchenko</p>
                 </section>
 
 			</div>

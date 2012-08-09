@@ -86,73 +86,110 @@ WebKit domination is exciting because it literally means
 that you can not only read about HTML5 and CSS3 but also use them.
 I personally realy enjoy using CSS3 flex box model.
 
+Now let take a look how we can make our life easier.
+
 ## Mobile Libraries & Frameworks
 
-> slide
+This talk about Sencha Touch so it naturally comes first.
 
-Now lets take a look which libraries are here to make our life easier.
+> fragment: Sencha...
 
-* Sencha Touch
-* jQuery + jQuery Mobile + ...
-* Zepto.js + ...
-* Micro libraries like iScroll
-* ...
+Arguably, it is the most comprehensive solution for building mobile web app
+currently available on the market.
+Sencha Touch is great but at the same time it's the haviest
+and the most complex option.
 
-This list is sorted from top to bottom by amount of features that libraries provide.
-Obviously nothing comes without price so library's size increases in the same order.
+> fragment: jQuery + ...
+
+Next alternative is jQuery combined with jQuery Mobile.
+These two will do amazing job for you if you are building a mobile web site
+and not too much concerned about library size.
+But if you are after one page mobile web application,
+it would be prudent to employ an MVC framework like Backbone.js or Spine
+in combination with jQuery Mobile.x
+
+Lets go futher. 
+
+> fragment: Zepto.js + ...
+
+There is a lightwheight counterpart of jQuery Mobile called Zepto.js.
+This library is built specifically for mobile devices which run WebKit browsers.
+
+It's much smaller than jQuery Mobile and obviously provides less features.
+For example, with jQM you get quite rich set of widgets
+but using Zepto.js you will have only HTML and CSS in your hands.
+This approach doesn't look easy but your app is going to be quite lean.
+
+Another option is to combine Zepto.js with jQTouch to get widgets and themes.
+In the same way as with jQuery Mobile you would want to use an MVC framework
+to structure your code.
+
+> fragment: ...
+
+This list is definetively not complete.
+Mobile web landscape is fairly reach and changing quickly.
+So you can consider this rather as a starting point for you own research.
+
+OK, let go back to Senha Touch and try to answer a couple of simple questions.
+
+The first one is ...
 
 ##  Why Sencha Touch Rocks?
 
-> slide
+Lets start from ...
 
-Class System and MVC
+> fragment: Application architecture
 
-  * inheritance, mixins, statics, singleton
-  * automatic dependency management
-  * standart application architecture
-  * declarative selector based event binding
-  * deep linking support (routing)
+> fragment: MVC
 
-> slide
+> fragment: rich class system
 
-Rich Set of Components
+> fragment: dependency management
 
-  * lists and forms - look and feel close to native
-  * toolbars, buttons and icons
-  * tabs, carousel and overlays
-  * awesome charts (separate component)
+> fragment: deep linkig support
 
-> slide
+> fragment: ...
 
-And More Goodness
+> slide: lists ...
 
-* Core utils: DOM, selectors, platform detection, templates etc
-* themes based on SASS and Compass
-* command line tools: scaffolds, build & packaging
+> slide: toolbars ...
+
+> slide: tabs, ...
+
+> slide: awesome charts...
+
+> slide: and more goodness
+
+> fragment: selectors
+
+> fragment: clientside templates
+
+> fragment: themes
+
+> fragment: command line
 
 ## Why Sencha Touch Sucks?
 
-> slide
+> fragment: <blink>...
 
-* supports only iOS, Android and Blackberry at the moment
-* complex: learning curve can be high
-* heavy: for example 420/142Kb - JS, 133/65Kb - CSS
-* not on GitHub
+> fragment: 420Kb
+
+> fragment: hard to study
+
+> fragment: not on GitHub
 
 ## How to Study
 
-> slide
+> fragment: tutorials
 
-* Guides, videos and samples
-* Samples: KitchenSink
-* API docs & source code
-* Blog, forum & Twitter
-  minor version updates
+> fragment: KitchenSink
 
-## Add More Coffeine
+> fragment: API docs
 
-> slide: CoffeeScript logo
+> fragment: source
+
+> fragment: @
 
 ## Thanks
 
-> slide
+[@yushchenko](https://twitter.com/vyushchenko)

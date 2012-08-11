@@ -1,4 +1,4 @@
-# Sencha Touch + Your Next Project === Love?
+ # Sencha Touch + Your Next Project === Love?
 
 ## Introduction
 
@@ -106,7 +106,7 @@ These two will do amazing job for you if you are building a mobile web site
 and not too much concerned about library size.
 But if you are after one page mobile web application,
 it would be prudent to employ an MVC framework like Backbone.js or Spine
-in combination with jQuery Mobile.x
+in combination with jQuery Mobile.
 
 Lets go futher. 
 
@@ -139,7 +139,7 @@ The first one is ...
 Lets start from ...
 
 > fragment: Application architecture
-
+ 
 First of all, it's MVC.
 
 > fragment: MVC
@@ -161,9 +161,9 @@ as well as my favorite feature - dependency management
 
 Dependency management it's where Sencha Touch really rocks.
 How it works? Simple.
-When you create an application just tell Senha
+When you create an application just tell Sencha
 which controllers and views you are using
-and them will be loaded when you debug and automatically included into build.
+and all this code will be loaded when you debug and included into build.
 Next, lets assume that you inherit a view from Sencha Container component.
 This component's source will be loaded and included into build either.
 Everything what goes into build is determined only by dependencies
@@ -184,7 +184,7 @@ method name and it just works.
 
 > fragment: ...
 
-Then next area where Sencha Touch is really stands  out it's components.
+Then next area where Sencha Touch is really stands out it's components.
 Lets take a glance what we have here.
 
 > slide: lists ...
@@ -192,7 +192,7 @@ Lets take a glance what we have here.
 First, it's provides list and forms which look and feel quite close to native.
 If you try them on you phone, you will see that the interections
 are fairly decent but not perfect, espessialy in comparison with native apps.
-In fact, it's just the price that you pay for the previledge to run
+In fact, this little slugishness just the price that you pay for the previledge to run
 the same code accross different platforms.
 
 > slide: toolbars ...
@@ -231,7 +231,7 @@ to make your life easier.
 > fragment: themes
 
 Themes is the next feature worth mentioning.
-It based on SASS and Compass framework.
+It is based on SASS and Compass framework.
 There are several very decent themes provided with library
 and it's fairly easy to generate new ones just tweaking SASS variables.
 
@@ -245,28 +245,95 @@ only code that you really use.
 It's also possible to wrap your app into native code
 if it should be deployed into Apple Store and Google Play.
 
+Now when we have seen some Sencha's strong sides
+lets move on to question number two.
+
 ## Why Sencha Touch Sucks?
 
 > fragment: <blink>...
 
+First of all it supports only iOS, Android and the latest Blackberries.
+At the current version there is no support for Symbian and Windows Phone.
+For local australian market it can be fine but if you have customers
+for example in China than Sencha Touch simply is not an option for you.
+
 > fragment: 420Kb
+
+Next, Sencha Touch apps are pretty heavy.
+For my last project built produces 420 Ks of crunched JavaScript and 133 Ks of CSS.
+It is not a small amount to parse for mobile browser
+and it is not particulary fast to trasfer it over 3G network.
 
 > fragment: hard to study
 
+Next, it can take some time to study Sencha Touch.
+A developer who got used to jQuery often thinks in such way:
+I will build my markup first and then I add a pluggin
+here to create a nice menu and another pluggin there for a carousel...
+This approach works pretty well when you are building a web site.
+
+With Senha you walk in exactly opposite direction -
+initially there is no markup at all,
+you build component hierarchy first and then each component
+generates all markup required for visual representation.
+
 > fragment: not on GitHub
+
+At the end, the last but important thing to mention is Sencha's lisensing.
+There is dual license scheme: you can get the framework
+under GPL version 3 or under Sencha's own "Free Commercial" lisense.
+This "Free Commercial" lisense is not equal to normal MIT license.
+For Sencha you are getting the source code but it's not on GitHub
+as most of other JavaScript libraries nowdays.
+
+OK, lets suppose that you have decided that 
+Sencha Touch rather rocks than sucks
+and you want to start using it today.
 
 ## How to Study
 
 > fragment: tutorials
 
+First of all I would advise you to open up docs.sencha.com in your browser
+and walk through the tutorials.
+The tutorials come in two forms - articles and videos.
+If you have time read and watch both they cover the same topics
+but from different perspective, they are not equivalent.
+
 > fragment: KitchenSink
+
+Next I would go to examples and open up Kitchen Sink application.
+In fact, it's rather a directory
+which contains examples of most typical Sencha's use cases..
+At the right top corner there is the button named "Source",
+using it you can take a look at typical configuration of various components.
+Or if you are lazy like me, you can just copy paste some code into your app.
 
 > fragment: API docs
 
+During development you will be mainly using API documentation.
+It's pretty much comprehensive and contains a lot of examples 
+but from time to time you still will want to digg into
+framework's source code.
+
 > fragment: source
+
+You can do this right in browser, just put mouse pointer over class name
+in API docs and you will see "View source..." link hidden by default.
 
 > fragment: @
 
+The last but not least.
+Sencha notifies you about major releases via blog
+but it's not so with bug fix and beta releases.
+These notification come through their developers forum.
+If you are not too much excited about forums,
+another way to get these notifications is Twitter
+via for example Jamie Avins who works in Sencha's dev team.
+
 ## Thanks
+
+OK, it's pretty much all Sencha, projects and love for today.
+Thank you for your patience and time.
 
 [@yushchenko](https://twitter.com/vyushchenko)

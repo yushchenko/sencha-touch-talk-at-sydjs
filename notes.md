@@ -69,7 +69,7 @@ Just let youself to be a little bit relaxed about application's DOM size.
 And to make the picture perfect, there is 3G network.
 It's not only slow but it can have very long round trip.
 One HTTP request can easy take up to 700 miliseconds
-and it doesn't matter how fast your server side API is.
+and it doesn't matter how fast your server is.
 
 > fragment: WebKit...
 
@@ -140,33 +140,110 @@ Lets start from ...
 
 > fragment: Application architecture
 
+First of all, it's MVC.
+
 > fragment: MVC
+
+Here we have rich data model, views and controllers that glue everything together.
+
+MVC is based on Sencha's class system.
 
 > fragment: rich class system
 
+The class system is shared in between Ext JS -
+it's another Secha's library used to build desktop web application -
+and Sencha Touch.
+
+It supports classes, mixins, singletons
+as well as my favorite feature - dependency management
+
 > fragment: dependency management
+
+Dependency management it's where Sencha Touch really rocks.
+How it works? Simple.
+When you create an application just tell Senha
+which controllers and views you are using
+and them will be loaded when you debug and automatically included into build.
+Next, lets assume that you inherit a view from Sencha Container component.
+This component's source will be loaded and included into build either.
+Everything what goes into build is determined only by dependencies
+and it's doesn't matter if it's your code or frameworks' code.
+In any case you will end up with only code which is really used.
+
+Next my favorite feature is Sencha's deep linking.
 
 > fragment: deep linkig support
 
+Essential part of controller's code it's just event handling.
+In sencha it's done in a declarative way.
+You provide a selector to determine set of components which events
+you want to listen, and event name followed by controller's method name
+which will handle the event.
+Near the same happens with deep linking: you type URL pattern and controller's
+method name and it just works.
+
 > fragment: ...
+
+Then next area where Sencha Touch is really stands  out it's components.
+Lets take a glance what we have here.
 
 > slide: lists ...
 
+First, it's provides list and forms which look and feel quite close to native.
+If you try them on you phone, you will see that the interections
+are fairly decent but not perfect, espessialy in comparison with native apps.
+In fact, it's just the price that you pay for the previledge to run
+the same code accross different platforms.
+
 > slide: toolbars ...
+
+Next, there are toolbars, buttons and huge set of icons.
 
 > slide: tabs, ...
 
+To put more stuff on small screen we can use tabs, carousels
+and various types of overlays.
+
 > slide: awesome charts...
+
+And the brightest comes at the end - we have awesome charts.
 
 > slide: and more goodness
 
+And there are more goodness.
+
 > fragment: selectors
+
+Selectors.
+In Sencha you can query DOM using selectors pretty much in the same way as in jQuery.
+This is not particularly useful here because you rarely deal with DOM directly,
+your code mainly interacts with more high level components.
+So in Sencha we have the second type of selectors which work against component tree.
+The syntax is pretty much the same so can you them straight away.
 
 > fragment: clientside templates
 
+To build custom components you will need to generate markup
+required for their visual representation.
+Sencha provides fully functional cliendside templates
+to make your life easier.
+
 > fragment: themes
 
+Themes is the next feature worth mentioning.
+It based on SASS and Compass framework.
+There are several very decent themes provided with library
+and it's fairly easy to generate new ones just tweaking SASS variables.
+
 > fragment: command line
+
+And the last in this "Rock" list is sencha commandline tool.
+When you start a new project it will generate scaffolds.
+When the project is ready to deploy it will
+will walk through the dependencies and combine and crunch
+only code that you really use.
+It's also possible to wrap your app into native code
+if it should be deployed into Apple Store and Google Play.
 
 ## Why Sencha Touch Sucks?
 

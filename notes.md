@@ -1,4 +1,4 @@
- # Sencha Touch + Your Next Project === Love?
+# Sencha Touch + Your Next Project === Love?
 
 ## Introduction
 
@@ -7,7 +7,7 @@ I am a JavaScript developer like many of you here.
 At the end of the last year
 I had a chance to try how mobile web development looks like
 and now I would love to share some of these findings with you.
-During next 10 minutes I will give you a short overview of
+During next 15 minutes I will give you a short overview of
 Sencha Touch JavaScript framework.
 
 In Fairfax, the company where I work,
@@ -38,18 +38,17 @@ from good, old and familiar desktop.
 
 The most obvious difference is screen size.
 
-Screen real estate is precious.
+Screen's real estate is precious.
 Having 320px width you can forget about many familiar UX patterns
 like grids and trees with inline editing.
 Obviously we need controls designed **specifically** for mobile.
 
 > fragment: fingers ...
 
-Next, for many people it was a lovely surprise that there is no mouse!
+Next, for many people it was a lovely surprise but there is no mouse!
 Tap instead of click, swipe instead of scroll and no hover event at all!
-**How to live in such terrible world ?!!**
 
-In addition to this we need to handle
+In addition to this we need to handle 
 such fancy interactions like **pinch** and **rotate**.
 Think, the library of our choice should give us a hand here.
 
@@ -112,12 +111,13 @@ Lets go futher.
 
 > fragment: Zepto.js + ...
 
-There is a lightwheight counterpart of jQuery Mobile called Zepto.js.
+There is a lightwheight counterpart of jQuery called Zepto.js.
 This library is built specifically for mobile devices which run WebKit browsers.
 
-It's much smaller than jQuery Mobile and obviously provides less features.
-For example, with jQM you get quite rich set of widgets
-but using Zepto.js you will have only HTML and CSS in your hands.
+It's much smaller than jQuery and obviously provides less features.
+You can use Zepto.js on its own,
+in this case you don't have widget and themes like with jQuery Mobile
+but only HMTL and CSS in your hands.
 This approach doesn't look easy but your app is going to be quite lean.
 
 Another option is to combine Zepto.js with jQTouch to get widgets and themes.
@@ -333,7 +333,7 @@ via for example Jamie Avins who works in Sencha's dev team.
 
 ## Thanks
 
-OK, it's pretty much all Sencha, projects and love for today.
+OK, it's pretty much all about Sencha, projects and love for today.
 Thank you for your patience and time.
 
 [@yushchenko](https://twitter.com/vyushchenko)
